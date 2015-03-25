@@ -1,0 +1,17 @@
+<head>
+  <title>camille-jeux</title>
+</head>
+
+<body>
+  <h1 style="border:1px solid black;text-align:center;">Jeux vidéo de Camille</h1>
+
+  {{> games}}
+</body>
+
+<template name="games">
+  <div id="control"><button>Démarrer</button></div>
+  <div id="games">
+    <img id="maison_arbre" src="/img/maison_arbre.png" /> 
+    <img id="lili" src="/img/fee_abeille.png" style="position:absolute;bottom:{{bottom}}px;right:{{right}}px" />
+  </div>
+</template>
